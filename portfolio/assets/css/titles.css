@@ -1,10 +1,7 @@
-@charset "UTF-8";
-
 .title {
 	position:absolute;
-	float:left;
-	top:50px;
-	left:-60px;
+	left:-80px;
+	clear:both;
 }
 .title h3 {
 	font-family: 'Oleo Script', cursive;

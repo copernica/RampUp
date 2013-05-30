@@ -1,17 +1,15 @@
 @charset "UTF-8";
-* {box-sizing:border-box}
+* {box-sizing:border-box;}
 
 .art-box{
 	width:120px;
 	height:120px;
 	position:relative;
 	float:left;
-	background-size:100%;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	background-position:center;
 	opacity:.6;
-	transition: .19s linear;
-	-webkit-transition: .19s linear;
-	transition-delay: .03s;
-	-webkit-transition-delay: .03s;
 	-moz-border-radius: 65px;
 	border-radius: 65px;
 	-webkit-border-radius: 65px;
@@ -20,13 +18,13 @@
 	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
 	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
 	margin:7px;
+	/* HOVER OFF */
+	transition: .19s linear;
+	-webkit-transition: .19s linear;
+	transition-delay: .03s;
+	-webkit-transition-delay: .03s;
 }
 .art-box:hover{
-	width:120px;
-	height:120px;
-	position:relative;
-	float:left;
-	background-size:100%;
 	opacity:1;
 	transition: .19s linear;
 	-webkit-transition: .19s linear;
@@ -42,12 +40,6 @@
 	margin:7px;
 }
 .art-box:active{
-	width:120px;
-	height:120px;
-	position:relative;
-	float:left;
-	background-size:100%;
-	opacity:1;
 	transition: .19s linear;
 	-webkit-transition: .19s linear;
 	transition-delay: .03s;
@@ -62,16 +54,201 @@
 	margin:7px;
 }
 
-.puppy{
-	background:url(http://i.imgur.com/9ZV3OG4.jpg);
+/*icons*/
+.icon{
+	width:30px;
+	height:30px;
+	position:relative;
+	float:left;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	background-position:center;
+	opacity:.8;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border: 2px #ffffff solid;
+	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
+	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
+	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
+	margin:7px;
+	/* HOVER OFF */
+	transition: .19s linear;
+	-webkit-transition: .19s linear;
+	transition-delay: .03s;
+	-webkit-transition-delay: .03s;
 }
-.puppy{
-	background:url(http://i.imgur.com/9ZV3OG4.jpg);
+.icon:hover{
+	opacity:1;
+	transition: .19s linear;
+	-webkit-transition: .19s linear;
+	transition-delay: .03s;
+	-webkit-transition-delay: .03s; /* Safari */
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 2px #ffffff solid;
+	-webkit-box-shadow:	-2px 5px 5px rgba(50, 50, 50, 0.38);
+	-moz-box-shadow:	-2px 5px 5px rgba(50, 50, 50, 0.38);
+	box-shadow:			-2px 5px 5px rgba(50, 50, 50, 0.38);
+	margin:7px;
 }
-.puppy{
-	background:url(http://i.imgur.com/9ZV3OG4.jpg);
+.icon:active{
+	transition: .19s linear;
+	-webkit-transition: .19s linear;
+	transition-delay: .03s;
+	-webkit-transition-delay: .03s; /* Safari */
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 2px #ffffff solid;
+	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
+	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
+	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
+	margin:7px;
 }
-.puppy{
-	background:url(http://i.imgur.com/9ZV3OG4.jpg);
+.facebook{
+	background-image:url(../imgs/facebook.png);
+	background-size:100%;
+	
+}
+.pinterest{
+	background-image:url(../imgs/pinterest.png);
+	background-size:100%;
+}
+.linkedin{
+	background-image:url(../imgs/linkedin.png);
+	background-size:100%;
+}
+.email{
+	background-image:url(../imgs/gmail.png);
+	background-size:100%;
 }
 
+
+
+/*graphic design*/
+.cosmos{
+	background-image:url(../imgs/art/cosmos.png);
+	background-size:300%;
+	
+}
+.HM-leaf-montez{
+	background-image:url(../imgs/art/HM-leaf-montez.png);
+	background-size:100%;
+}
+.boston{
+	background-image:url(../imgs/art/boston.jpg);
+	background-size:100%;
+}
+.atoms{
+	background-image:url(../imgs/art/atoms.jpg);
+	background-size:300%;
+}
+.details{
+	background-image:url(../imgs/art/details.png);
+	background-size:100%;
+}
+.k-logo{
+	background-image:url(../imgs/art/k-logo.jpg);
+	background-size:100%;
+}
+.pinkad{
+	background-image:url(../imgs/art/pinkad.jpg);
+	background-size:300%;
+}
+.puppy{
+	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
+	background-size:200%;
+}
+
+
+/*fine art*/
+.ale{
+	background-image:url(../imgs/art/ale.jpg);
+	background-size:200%;
+}
+.bianka{
+	background-image:url(../imgs/art/bianka.jpg);
+	background-size:300%;
+}
+.broadst{
+	background-image:url(../imgs/art/broadst.jpg);
+	background-size:200%;
+}
+.dustin{
+	background-image:url(../imgs/art/dustin.jpg);
+	background-size:150%;
+}
+.aquatint{
+	background-image:url(../imgs/art/aquatint.jpg);
+	background-size:200%;
+}
+.fruits{
+	background-image:url(../imgs/art/fruits.jpg);
+	background-size:200%;
+}
+.labrecque{
+	background-image:url(../imgs/art/labrecque.jpg);
+	background-size:150%;
+}
+.thefairy{
+	background-image:url(../imgs/art/thefairy.jpg);
+	background-size:200%;
+}
+.mermaid1{
+	background-image:url(../imgs/art/mermaid1.jpg);
+	background-size:200%;
+}
+.ink-faces{
+	background-image:url(../imgs/art/ink-faces.png);
+	background-size:400%;
+}
+.profile{
+	background-image:url(../imgs/art/profile.jpg);
+	background-size:110%;
+}
+.selfportrait{
+	background-image:url(../imgs/art/selfportrait.jpg);
+	background-size:130%;
+}
+/*digital art*/
+
+.woods{
+	background-image:url(../imgs/art/woods.png);
+	background-size:200%;
+}
+.xbox{
+	background-image:url(../imgs/art/xbox.jpg);
+	background-size:100%;
+}
+.face{
+	background-image:url(../imgs/art/face.jpg);
+	background-size:200%;
+}
+.rawfairy{
+	background-image:url(../imgs/art/rawfairy.jpg);
+	background-size:200%;
+}
+
+/*web*/
+.puppy{
+	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
+	background-size:200%;
+}
+.puppy{
+	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
+	background-size:200%;
+}
+.puppy{
+	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
+	background-size:200%;
+}
+.puppy{
+	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
+	background-size:200%;
+}
+.puppy{
+	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
+	background-size:200%;
+}
