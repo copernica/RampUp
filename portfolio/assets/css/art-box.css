@@ -2,22 +2,20 @@
 * {box-sizing:border-box;}
 
 .art-box{
-	width:120px;
 	height:120px;
 	position:relative;
-	float:left;
 	background-repeat:no-repeat;
 	background-color:#FFFFFF;
 	background-position:center;
-	opacity:.8;
-	-moz-border-radius: 65px;
-	border-radius: 65px;
-	-webkit-border-radius: 65px;
+	opacity:.6;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
 	border: 5px #ffffff solid;
 	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
 	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
 	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
-	margin: 4px;
+	margin: 6px;
 	/* HOVER OFF */
 	transition: .19s linear;
 	-webkit-transition: .19s linear;
@@ -25,41 +23,30 @@
 	-webkit-transition-delay: .03s;
 }
 .art-box:hover{
-	opacity:1;
+	height:120px;
+	position:relative;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	background-position:center;
+	opacity: 1;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 5px #ffffff solid;
+	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.85);
+	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.85);
+	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.85);
+	/* HOVER OFF */
 	transition: .19s linear;
 	-webkit-transition: .19s linear;
 	transition-delay: .03s;
-	-webkit-transition-delay: .03s; /* Safari */
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	-webkit-border-radius: 7px;
-	border: 5px #ffffff solid;
-	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
-	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
-	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
-	margin: 4px;
+	-webkit-transition-delay: .03s;
 }
-.art-box:active{
-	transition: .19s linear;
-	-webkit-transition: .19s linear;
-	transition-delay: .03s;
-	-webkit-transition-delay: .03s; /* Safari */
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	-webkit-border-radius: 7px;
-	border: 5px #ffffff solid;
-	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
-	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
-	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
-	margin: 4px;
-}
-
 /*icons*/
 .icon{
 	width:30px;
 	height:30px;
 	position:relative;
-	float:left;
 	background-repeat:no-repeat;
 	background-color:#FFFFFF;
 	background-position:center;
@@ -71,12 +58,14 @@
 	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
 	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
 	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
-	margin:7px;
+	margin:7px 3px 7px 3px;
 	/* HOVER OFF */
 	transition: .19s linear;
 	-webkit-transition: .19s linear;
 	transition-delay: .03s;
 	-webkit-transition-delay: .03s;
+	z-index:2000;
+	
 }
 .icon:hover{
 	opacity:1;
@@ -91,7 +80,7 @@
 	-webkit-box-shadow:	-2px 5px 5px rgba(50, 50, 50, 0.38);
 	-moz-box-shadow:	-2px 5px 5px rgba(50, 50, 50, 0.38);
 	box-shadow:			-2px 5px 5px rgba(50, 50, 50, 0.38);
-	margin:7px;
+	margin:7px 3px 7px 3px;
 }
 .icon:active{
 	transition: .19s linear;
@@ -105,24 +94,28 @@
 	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.65);
 	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.65);
 	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.65);
-	margin:7px;
+	margin:7px 3px 7px 3px;
 }
 .facebook{
 	background-image:url(../imgs/facebook.png);
 	background-size:100%;
+	float:left;
 	
 }
 .pinterest{
 	background-image:url(../imgs/pinterest.png);
 	background-size:100%;
+	float:left;
 }
 .linkedin{
 	background-image:url(../imgs/linkedin.png);
 	background-size:100%;
+	float:right;
 }
 .email{
 	background-image:url(../imgs/gmail.png);
 	background-size:100%;
+	float:right;
 }
 
 
@@ -130,7 +123,7 @@
 /*graphic design*/
 .cosmos{
 	background-image:url(../imgs/art/cosmos.png);
-	background-size:300%;
+	background-size:150%;
 	
 }
 .HM-leaf-montez{
@@ -143,7 +136,7 @@
 }
 .atoms{
 	background-image:url(../imgs/art/atoms.jpg);
-	background-size:300%;
+	background-size:150%;
 }
 .details{
 	background-image:url(../imgs/art/details.png);
@@ -155,7 +148,7 @@
 }
 .pinkad{
 	background-image:url(../imgs/art/pinkad.jpg);
-	background-size:300%;
+	background-size:150%;
 }
 .puppy{
 	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
@@ -166,15 +159,15 @@
 /*fine art*/
 .ale{
 	background-image:url(../imgs/art/ale.jpg);
-	background-size:200%;
+	background-size:120%;
 }
 .bianka{
 	background-image:url(../imgs/art/bianka.jpg);
-	background-size:300%;
+	background-size:150%;
 }
 .broadst{
 	background-image:url(../imgs/art/broadst.jpg);
-	background-size:200%;
+	background-size:100%;
 }
 .dustin{
 	background-image:url(../imgs/art/dustin.jpg);
@@ -202,7 +195,7 @@
 }
 .ink-faces{
 	background-image:url(../imgs/art/ink-faces.png);
-	background-size:400%;
+	background-size:200%;
 }
 .profile{
 	background-image:url(../imgs/art/profile.jpg);
@@ -212,25 +205,6 @@
 	background-image:url(../imgs/art/selfportrait.jpg);
 	background-size:130%;
 }
-/*digital art*/
-
-.woods{
-	background-image:url(../imgs/art/woods.png);
-	background-size:200%;
-}
-.xbox{
-	background-image:url(../imgs/art/xbox.jpg);
-	background-size:100%;
-}
-.face{
-	background-image:url(../imgs/art/face.jpg);
-	background-size:200%;
-}
-.rawfairy{
-	background-image:url(../imgs/art/rawfairy.jpg);
-	background-size:200%;
-}
-
 /*web*/
 .puppy{
 	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
@@ -252,3 +226,22 @@
 	background-image:url(http://i.imgur.com/9ZV3OG4.jpg);
 	background-size:200%;
 }
+/*digital art*/
+
+.woods{
+	background-image:url(../imgs/art/woods.png);
+	background-size:200%;
+}
+.xbox{
+	background-image:url(../imgs/art/xbox.jpg);
+	background-size:100%;
+}
+.face{
+	background-image:url(../imgs/art/face.jpg);
+	background-size:100%;
+}
+.rawfairy{
+	background-image:url(../imgs/art/rawfairy.jpg);
+	background-size:120%;
+}
+
