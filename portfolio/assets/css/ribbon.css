@@ -27,10 +27,10 @@
 }
 
 #header .lower-blue-left {
-	width:130px;
+	width:122px;
 	height:55px;
 	margin-top:20px;
-	margin-left:-80px;
+	margin-left:-72px;
 	background:#1b93a4 url(../imgs/ribbon-bg-lower.png) center repeat-x;
 	position:absolute;
 	left:0px;
@@ -39,10 +39,10 @@
 			
 }
 #header .lower-blue-right {
-	width:130px;
+	width:122px;
 	height:55px;
 	margin-top:20px;
-	margin-right:-80px;
+	margin-right:-72px;
 	background:#1b93a4 url(../imgs/ribbon-bg-lower.png) center repeat-x;	
 	position:absolute;
 	right:0px;
