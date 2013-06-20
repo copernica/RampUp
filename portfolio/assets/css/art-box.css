@@ -60,6 +60,7 @@
 	background-color:#FFFFFF;
 	background-position:center;
 	opacity:.9;
+	text-decoration: none;
 	/* IE6+ */
 	filter: alpha(opacity=90); /* IE6+ */
 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
@@ -80,7 +81,6 @@
 	z-index:2000;
 	
 }
-
 .icon:hover{
 	opacity:1;
 	transition: .19s linear;
@@ -96,7 +96,11 @@
 	box-shadow:			-2px 5px 5px rgba(50, 50, 50, 0.38);
 	margin:7px 3px 7px 3px;
 }
-.icon:hover:before {
+
+.icon span{
+	display:none;
+}
+.icon:hover span {
   display: block;
   position: absolute; 
   padding: .5em;
@@ -120,7 +124,7 @@
 	-webkit-transition-delay: .09s;
 
 }
-.icon:hover:after {
+.icon:hover span:after{
   position: absolute;
   display: block;
   content: "";  
@@ -130,8 +134,8 @@
   height:0;
   width:0;
   position:absolute;
-  top: 17px;
-  left:.5em;
+  top: -20px;
+  left:.8em;
   transition: .19s ease-in-out;
 	-webkit-transition: .19s ease-in-out;
 	transition-delay: .09s;
@@ -167,173 +171,172 @@
 
 /*graphic design*/
 .cosmos{
-	background-image:url(../imgs/art/cosmos.png);
+	background-image:url(../imgs/art/thumbs/cosmos.jpg);
 	background-size:100%;
 	
 }
 .Healthfully-me{
-	background-image:url(../imgs/art/Healthfully-me.png);
+	background-image:url(../imgs/art/thumbs/Healthfully-me.jpg);
 	background-size:100%;
 }
 .HM-leaf-montez{
-	background-image:url(../imgs/art/HM-leaf-montez.png);
+	background-image:url(../imgs/art/thumbs/HM-leaf-montez.jpg);
 	background-size:100%;
 }
 .HealthfullyMe-logo{
-	background-image:url(../imgs/art/HealthfullyMe-logo.png);
+	background-image:url(../imgs/art/thumbs/HealthfullyMe-logo.jpg);
 	background-size:100%;
 }
 .k-logo{
-	background-image:url(../imgs/art/k-logo.png);
+	background-image:url(../imgs/art/thumbs/k-logo.jpg);
 	background-size:100%;
 }
 .Athome-logo{
-	background-image:url(../imgs/art/Athome-Logo.png);
+	background-image:url(../imgs/art/thumbs/Athome-Logo.jpg);
 	background-size:100%;
 }
 .boston{
-	background-image:url(../imgs/art/boston.png);
+	background-image:url(../imgs/art/thumbs/boston.jpg);
 	background-size:100%;
 }
 .atoms{
-	background-image:url(../imgs/art/atoms.png);
+	background-image:url(../imgs/art/thumbs/atoms.jpg);
 	background-size:100%;
 }
 .details{
-	background-image:url(../imgs/art/details.png);
+	background-image:url(../imgs/art/thumbs/details.jpg);
 	background-size:100%;
 }
 .pinkad{
-	background-image:url(../imgs/art/pinkad.png);
+	background-image:url(../imgs/art/thumbs/pinkad.jpg);
 	background-size:100%;
 }
 .gift{
-	background-image:url(../imgs/art/gift.png);
+	background-image:url(../imgs/art/thumbs/gift.jpg);
 	background-size:100%;
 }
 .mustache-words{
-	background-image:url(../imgs/art/mustache-words.png);
+	background-image:url(../imgs/art/thumbs/mustache-words.jpg);
 	background-size:100%;
 }
 .thinking-day{
-	background-image:url(../imgs/art/thinking-day.png);
+	background-image:url(../imgs/art/thumbs/thinking-day.jpg);
 	background-size:100%;
 }
-
+.memorial-day{
+	background-image:url(../imgs/art/thumbs/memorial-day.jpg);
+	background-size:100%;
+}
 
 /*fine art*/
 .ale{
-	background-image:url(../imgs/art/ale.png);
+	background-image:url(../imgs/art/thumbs/ale.jpg);
 	background-size:120%;
 }
 .bianka{
-	background-image:url(../imgs/art/bianka.png);
+	background-image:url(../imgs/art/thumbs/bianka.jpg);
 	background-size:150%;
 }
 .broadst{
-	background-image:url(../imgs/art/broadst.png);
+	background-image:url(../imgs/art/thumbs/broadst.jpg);
 	background-size:100%;
 }
 .dustin{
-	background-image:url(../imgs/art/dustin.png);
+	background-image:url(../imgs/art/thumbs/dustin.jpg);
 	background-size:150%;
 }
 .aquatint{
-	background-image:url(../imgs/art/aquatint.png);
+	background-image:url(../imgs/art/thumbs/aquatint.jpg);
 	background-size:100%;
 }
 .fruits{
-	background-image:url(../imgs/art/fruits.png);
+	background-image:url(../imgs/art/thumbs/fruits.jpg);
 	background-size:100%;
 }
 .labrecque{
-	background-image:url(../imgs/art/labrecque.png);
+	background-image:url(../imgs/art/thumbs/labrecque.jpg);
 	background-size:150%;
 }
 .thefairy{
-	background-image:url(../imgs/art/thefairy.png);
+	background-image:url(../imgs/art/thumbs/thefairy.jpg);
 	background-size:100%;
 }
-.mermaid1{
-	background-image:url(../imgs/art/mermaid1.png);
+.mermaid{
+	background-image:url(../imgs/art/thumbs/mermaid.jpg);
 	background-size:100%;
 }
 .ink-faces{
-	background-image:url(../imgs/art/ink-faces.png);
+	background-image:url(../imgs/art/thumbs/ink-faces.jpg);
 	background-size:100%;
 }
 .profile{
-	background-image:url(../imgs/art/profile.png);
+	background-image:url(../imgs/art/thumbs/profile.jpg);
 	background-size:110%;
 }
 .selfportrait{
-	background-image:url(../imgs/art/selfportrait.png);
+	background-image:url(../imgs/art/thumbs/selfportrait.jpg);
 	background-size:130%;
 }
 /*web*/
 .littlefigs-style-tile{
-	background-image:url(../imgs/art/3littlefigs-style-tile2.png);
+	background-image:url(../imgs/art/thumbs/3littlefigs-style-tile2.jpg);
 	background-size:100%;
 }
 .littlefigs-wireframe{
-	background-image:url(../imgs/art/3littlefigs-wireframe.png);
+	background-image:url(../imgs/art/thumbs/3littlefigs-wireframe.jpg);
 	background-size:100%;
 }
 .absolute-investigation{
-	background-image:url(../imgs/art/absolute-investigation.png);
+	background-image:url(../imgs/art/thumbs/absolute-investigation.jpg);
 	background-size:100%;
 }
 .band-style-tile{
-	background-image:url(../imgs/art/band-style-tile.png);
+	background-image:url(../imgs/art/thumbs/band-style-tile.jpg);
 	background-size:100%;
 }
 .wbmason-homepage{
-	background-image:url(../imgs/art/wbmason-homepage.png);
+	background-image:url(../imgs/art/thumbs/wbmason-homepage.jpg);
 	background-size:100%;
 }
 .B2B-eblast{
-	background-image:url(../imgs/art/B2B-eblast.png);
-	background-size:100%;
-}
-.french-vanilla{
-	background-image:url(../imgs/art/french-vanilla.png);
+	background-image:url(../imgs/art/thumbs/B2B-eblast.jpg);
 	background-size:100%;
 }
 .kcups-banner{
-	background-image:url(../imgs/art/kcups-banner.png);
+	background-image:url(../imgs/art/thumbs/kcups-banner.jpg);
 	background-size:100%;
 }
 .B2C-homepage{
-	background-image:url(../imgs/art/B2C-homepage.png);
+	background-image:url(../imgs/art/thumbs/B2C-homepage.jpg);
 	background-size:100%;
 }
 .B2C-writing-page{
-	background-image:url(../imgs/art/B2C-writing-page.png);
+	background-image:url(../imgs/art/thumbs/B2C-writing-page.jpg);
 	background-size:100%;
 }
 .B2C-eblast{
-	background-image:url(../imgs/art/B2C-eblast.png);
+	background-image:url(../imgs/art/thumbs/B2C-eblast.jpg);
 	background-size:100%;
 }
 /*digital art*/
 
 .woods{
-	background-image:url(../imgs/art/woods.png);
+	background-image:url(../imgs/art/thumbs/woods.jpg);
 	background-size:100%;
 }
 .red-sun{
-	background-image:url(../imgs/art/red-sun.png);
+	background-image:url(../imgs/art/thumbs/red-sun.jpg);
 	background-size:100%;
 }
 .xbox{
-	background-image:url(../imgs/art/xbox.png);
+	background-image:url(../imgs/art/thumbs/xbox.jpg);
 	background-size:100%;
 }
 .face{
-	background-image:url(../imgs/art/face.png);
+	background-image:url(../imgs/art/thumbs/face.jpg);
 	background-size:100%;
 }
 .rawfairy{
-	background-image:url(../imgs/art/rawfairy.png);
+	background-image:url(../imgs/art/thumbs/rawfairy.jpg);
 	background-size:120%;
 }

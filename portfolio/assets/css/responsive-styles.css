@@ -1,11 +1,42 @@
 @charset "UTF-8";
 * {box-sizing:border-box;}
-@media (min-width: 320px) {
+@media (max-width: 479px) {
 	
 #header h1{
 	font-size:3em;
 	margin-top:1px;
 }
+
+#header .ribbon {
+	width:80%;
+	height:85px;
+	margin: 0 auto;	
+	position:relative;
+	padding:14px 0 10px 0;
+}
+
+#header .lower-blue-left {
+	width:82px;
+	margin-left:-32px;
+			
+}
+#header .lower-blue-right {
+	width:82px;
+	margin-right:-32px;
+}
+.text{
+	margin:0 auto;
+	width:98%;
+	position:relative;
+	text-align:center;
+	padding:10px 0;
+}
+.content{
+	 width:80%;
+	 position: relative;
+	 overflow: hidden;
+	 padding:10px 0px 20px 30px;
+ }
 .art-box{
 	height:5em;
 	width:100%;
@@ -16,42 +47,50 @@
 	width:100%;
 	
 }
+}
+@media (min-width: 480px){
+
 #header .ribbon {
-	width:60%;
+	width:400px;
 	height:85px;
 	margin: 0 auto;	
 	position:relative;
 	padding:14px 0 10px 0;
 }
-
 #header .lower-blue-left {
-	width:102px;
-	margin-left:-52px;
+	width:82px;
+	margin-left:-32px;
 			
 }
 #header .lower-blue-right {
-	width:102px;
-	margin-right:-52px;
-}
- .content{
-	 width:85%;
-	 position: relative;
-	 overflow: hidden;
-	 padding:10px 0px 10px 0px;
- }
-}
-@media (min-width: 480px){
-
-#header .ribbon {
-	width:350px;
-	height:85px;
-	margin: 0 auto;	
-	position:relative;
-	padding:10px 0 10px 0;
+	width:82px;
+	margin-right:-32px;
 }
 #header h1{
 	font-size:3.4em;
-	margin-top:-3px;
+}
+.text{
+	margin:0 auto;
+	width:98%;
+	position:relative;
+	text-align:center;
+	padding:10px 0;
+}
+.content{
+	 width:100%;
+	 position: relative;
+	 overflow: hidden;
+	 padding:10px 0px 10px 55px;
+ }
+.art-box{
+	height:7em;
+	width:30%;
+	
+}
+.art-box:hover{
+	height:7em;
+	width:30%;
+	
 }
 }
 @media (min-width: 570px) {
@@ -61,12 +100,12 @@
 }
 .art-box{
 	height:7em;
-	width:30%;
+	width:40%;
 	
 }
 .art-box:hover{
 	height:7em;
-	width:30%;
+	width:40%;
 	
 }
 }
@@ -102,7 +141,6 @@
 
 #header h1{
 	font-size:4em;
-	color:#fff8f3/*#fffefd*/;
 	text-align:center;
 	text-shadow: 3px 2px 2px #305c67;
 	margin: -5px 0px 0px 0px;
@@ -242,12 +280,12 @@
 }
 .art-box{
 	height:8em;
-	width:18%;
+	width:20%;
 	
 }
 .art-box:hover{
 	height:8em;
-	width:18%;
+	width:20%;
 	
 }
 }
@@ -255,6 +293,7 @@
 
 .content{
 	 width: 90%;
+	 padding-bottom:50px;
 }	
 .art-box{
 	height:9em;
